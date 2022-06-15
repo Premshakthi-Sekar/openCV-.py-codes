@@ -4,7 +4,7 @@ import cv2
 trained_face_data= cv2.CascadeClassifier('face.xml')
 
 #read the image
-img=cv2.imread('joeychand.jfif')
+img=cv2.imread('test_img_joeychand.jfif')
 
 #convert to grey scale
 greyimg = cv2.cvtColor(img, cv2.COLOR_RGBA2GRAY)
